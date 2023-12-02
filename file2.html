@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music purchase</title>
+    <style>
+        .parent{
+            width: 80%;
+            height: 700px;
+            background-color: white;
+            margin: 100px;
+            border-radius: 25px;
+        }
+        .child1{
+            float:left;
+            background-size: 300px 600px;
+            width: 60%;
+            height: 400px;
+        }
+        form{
+            float:right;
+            text-align: center;
+            padding: 100px;
+            padding-left:150px;
+            padding-right: 180px;
+            margin-left:150px;
+            background-color: white;
+            width: 125px;
+            height:   500px;
+            position:absolute;
+            right:300px
+
+        }
+        input[type=text],
+        [type=email],
+        [type=password]{
+            width: 250px;
+            height: 23px;
+
+        }
+        label{
+            padding-right: 70px;
+        }
+        img{
+            border-radius: 25px;
+            position: relative;
+        }
+        input[type=submit]{
+        background-color:rgb(61, 98, 204);
+        color:white;
+        width: 70px;
+        height: 30px;
+        }
+        input:hover{
+            background-color:#d0ddf2 ;
+        }
+#Confirm{
+    padding:0;margin:0;color:red
+}
+    </style>
+</head>
+<body style="background-image:linear-gradient(to right,rgb(134, 178, 249),rgb(72, 33, 176))">
+    <center>
+    <div class="parent">
+
+        <div class="child1">
+            <img src="Gallery-3-1.png" alt="img" height="700" width="820" border-radius: 25px>
+
+        </div>
+        
+        <form>
+            <h1>Registration Form</h1>
+            <label for="Name">Name:</label><br><br>
+            <input type="text" id="Name" name="Name" placeholder="ex: Lindsey Wilson"><br><br>
+            <label for="Email">Email:</label><br><br>
+            <input type="Email" name="Email" id="Email" placeholder="ex: Lindsey@gmail.com"><br><br>
+            <label for="Password">Password:</label><br><br>
+            <input type="Password" name="Password" id="Password" placeholder="ex:123456 "><br><br>
+            <label for="Confirm Password">Confirm Password:</label><br><br>
+            <input type="Password" name="Confirm Password" id="Confirm" placeholder="ex:123456"><br><br>
+            <br>
+            <input type="Submit" value="Register">
+        </form>
+    </div>
+</center>
+</body>
+</html>
